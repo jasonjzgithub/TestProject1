@@ -1,0 +1,19 @@
+<div id="user-input"  style="border:thin solid black">
+<h2>user-input works!</h2>
+<p>
+  . User input function  
+</p>
+<p>
+  <input #boxUIBindingOnly (keyup)="0" >
+</p>
+<p> 
+  {{boxUIBindingOnly.value}}
+</p>
+
+<p>
+  <input #boxUIBindComponent (keyup)="onKey(boxUIBindComponent.value)" >
+</p>
+<p> 
+  {{boxUIBindComponent.value}}
+</p>
+</div>
